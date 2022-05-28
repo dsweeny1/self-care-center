@@ -6,3 +6,103 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+
+.hidden {
+  display: none!important;
+}
+
+body {
+background-image: linear-gradient(to bottom, #134d71, #295d80, #3c6d90, #4e7ea0, #608fb0, #649fb9, #6daec0, #7abdc5, #90cabd, #b0d5b6, #d4ddb6, #f7e4bf);
+height: 100%;
+min-height: 100vh;
+background-size: cover;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+}
+
+.header-box {
+  height: 270px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+ .radio-button-box {
+   display: flex;
+   margin: auto;
+   width: 60%;
+   height: 100%;
+   justify-content: space-around;
+}
+
+.wrapper {
+  background-color: white;
+  width: 30%;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.affirmation-button {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin-bottom: 70px;
+}
+
+.mantra-button {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin-bottom: 70px;
+}
+
+.receive-button {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #134d71;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.clear {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #134d71;
+  color: white;
+  border-radius: 5px;
+}
+
+.another-wrapper {
+  background-color: white;
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 130px;
+}
