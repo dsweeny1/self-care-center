@@ -35,11 +35,11 @@ function randomMantra() {
 function showHide() {
   hiddenP.classList.remove('hidden');
   meditationBell.classList.add('hidden');
-  clearButton.classList.remove('hidden')
+  clearButton.classList.remove('hidden');
 }
 
 function clearMessage() {
   hiddenP.classList.add('hidden');
-  meditationBell.classList.remove('hidden')
-  clearButton.classList.add('hidden')
+  meditationBell.classList.remove('hidden');
+  clearButton.classList.add('hidden');
 }
